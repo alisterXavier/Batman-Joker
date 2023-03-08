@@ -14,11 +14,11 @@ const Home = () => {
           isTransitionActive && "activate-glitch"
         }`}
       >
-        <h1 className="character-name text-[#e7b200] left-5 z-10 text-[100px] font-bold absolute">
+        <h1 className="character-name text-[#e7b200] left-5 z-[1] text-[50px] lg:text-[100px] font-bold absolute">
           Batman
         </h1>
 
-        <div className={`glitch translate-x-[25%]`}>
+        <div className={`glitch lg:translate-x-[25%]`}>
           <div className="glitch__img batman-img"></div>
           <div className="glitch__img batman-img"></div>
           <div className="glitch__img batman-img"></div>

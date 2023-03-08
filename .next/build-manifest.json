@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/BW24R0xG4VoXJfQhMK2Yp/_buildManifest.js",
-    "static/BW24R0xG4VoXJfQhMK2Yp/_ssgManifest.js"
+    "static/jLhz2wxbKns4eDG8S7ITi/_buildManifest.js",
+    "static/jLhz2wxbKns4eDG8S7ITi/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,27 +15,27 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/873-8fa583cab03d1442.js",
-      "static/chunks/pages/index-aa122652bcf7f66f.js"
+      "static/chunks/pages/index-2e6333998ab1266c.js"
     ],
     "/Bateman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/873-8fa583cab03d1442.js",
-      "static/chunks/pages/Bateman-2c9bf05fdfff45e0.js"
+      "static/chunks/pages/Bateman-d2a879150676a506.js"
     ],
     "/Joker": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/873-8fa583cab03d1442.js",
-      "static/chunks/pages/Joker-58e71226c49827ae.js"
+      "static/chunks/pages/Joker-5fbbb0b2845f77b6.js"
     ],
     "/_app": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/css/6516fbd6c5f043eb.css",
+      "static/css/c48aa8eb32df5ac0.css",
       "static/chunks/pages/_app-8173a0e0ce6c816b.js"
     ],
     "/_error": [

@@ -22,15 +22,15 @@ const Navbar = () => {
 
   return (
     <nav className="h-[10vh] z-[1] w-screen absolute top-0 backdrop-blur flex items-center text-[#e7b200]">
-      <div className="logo-wrapper w-[8%] h-[100%] relative flex items-center justify-center">
+      <div className="logo-wrapper fixed left-2 top-full lg:relative w-[20%] lg:w-[8%] lg:h-[100%] flex items-center justify-center">
         <figure
-          className="bat-symbol w-[100%] h-[50px] overflow-hidden cursor-pointer"
+          className="bat-symbol w-[100%] h-[50px] lg:overflow-hidden cursor-pointer"
           onClick={navTransition}
         >
           <Image alt="bat" src={laugh} className="w-full" />
         </figure>
       </div>
-      <div className="flex">
+      <div className="flex text-xs lg:text-sm">
         <div className="p-5">
           <p className="hover:underline cursor-pointer">Home</p>
         </div>

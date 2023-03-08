@@ -21,7 +21,7 @@ const Navbar = () => {
   }, [])
   return (
     <nav className="h-[10vh] z-[1] w-screen absolute top-0 backdrop-blur flex items-center text-[#0dd859]">
-      <div className="logo-wrapper w-[8%] h-[100%] relative flex items-center justify-center">
+      <div className="logo-wrapper fixed left-2 top-full w-[20%] lg:w-[8%] lg:h-[100%] lg:relative flex items-center justify-center">
         <figure
           className="joker-symbol w-[100%] flex item-center justify-center overflow-hidden cursor-pointer"
           onClick={navTransition}
@@ -29,7 +29,7 @@ const Navbar = () => {
           <Image alt="laugh" src={batsymbol} className="w-[70%] h-[50px]" />
         </figure>
       </div>
-      <div className="flex">
+      <div className="flex text-xs lg:text-sm">
         <div className="p-5">
           <p className="hover:underline cursor-pointer">Home</p>
         </div>

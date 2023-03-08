@@ -4,8 +4,8 @@
 	--color-link: #1c1cc9;
 	--color-link-hover: #aaa;
 	--color-info: #1c1cc9;
-	--glitch-width: 100vw;
-	--glitch-height: 100vh;
+	--glitch-width: 100%;
+	--glitch-height: 100%;
 	--gap-horizontal: 10px;
 	--gap-vertical: 5px;
 	--color-title: #fff;
@@ -47,7 +47,7 @@
 
 /* Glitch styles */
 .batman-img{
-	background: var(--batman-background-image) no-repeat 50% 0;
+	background: var(--batman-background-image) no-repeat 50% 0%;
 }
 .joker-img{
 	background: var(--joker-background-image) no-repeat 50% 0;
@@ -69,7 +69,6 @@
 	height: calc(100% + var(--gap-vertical) * 2);
 	background-color: var(--blend-color-1);
 	background-size: cover;
-	background-size: 100%;
 	transform: translate3d(0,0,0);
 	background-blend-mode: var(--blend-mode-1);
 }

@@ -53,9 +53,9 @@ const Navbar = ()=>{
         className: "h-[10vh] z-[1] w-screen absolute top-0 backdrop-blur flex items-center text-[#e7b200]",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "logo-wrapper w-[8%] h-[100%] relative flex items-center justify-center",
+                className: "logo-wrapper fixed left-2 top-full lg:relative w-[20%] lg:w-[8%] lg:h-[100%] flex items-center justify-center",
                 children: /*#__PURE__*/ jsx_runtime_.jsx("figure", {
-                    className: "bat-symbol w-[100%] h-[50px] overflow-hidden cursor-pointer",
+                    className: "bat-symbol w-[100%] h-[50px] lg:overflow-hidden cursor-pointer",
                     onClick: navTransition,
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         alt: "bat",
@@ -65,7 +65,7 @@ const Navbar = ()=>{
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex",
+                className: "flex text-xs lg:text-sm",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "p-5",
@@ -115,11 +115,11 @@ const Home = ()=>{
                 className: `hero-section  min-w-[100vw] h-[100vh] relative flex items-center justify-center ${isTransitionActive && "activate-glitch"}`,
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        className: "character-name text-[#e7b200] left-5 z-10 text-[100px] font-bold absolute",
+                        className: "character-name text-[#e7b200] left-5 z-[1] text-[50px] lg:text-[100px] font-bold absolute",
                         children: "Batman"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: `glitch translate-x-[25%]`,
+                        className: `glitch lg:translate-x-[25%]`,
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: "glitch__img batman-img"
