@@ -1,31 +1,13 @@
-import { useSelector } from "react-redux";
+import Header from "@/components/bateman/Header/Header";
 import Navbar from "../components/bateman/NavBar/batmanNavbar";
-import { StoreInterface } from "@/types/types";
+import Variants from "@/components/bateman/Variants/variants";
 
 const Home = () => {
-  const isTransitionActive = useSelector(
-    (state: StoreInterface) => state.transition.transition
-  );
   return (
     <>
       <Navbar />
-      <main
-        className={`hero-section  min-w-[100vw] h-[100vh] relative flex items-center justify-center ${
-          isTransitionActive && "activate-glitch"
-        }`}
-      >
-        <h1 className="character-name text-[#e7b200] left-5 z-[1] text-[50px] lg:text-[100px] font-bold absolute">
-          Batman
-        </h1>
-
-        <div className={`glitch lg:translate-x-[25%]`}>
-          <div className="glitch__img batman-img"></div>
-          <div className="glitch__img batman-img"></div>
-          <div className="glitch__img batman-img"></div>
-          <div className="glitch__img batman-img"></div>
-          <div className="glitch__img batman-img"></div>
-        </div>
-      </main>
+      <Header />
+      <Variants />
     </>
   );
 };

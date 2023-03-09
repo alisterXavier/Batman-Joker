@@ -9,7 +9,9 @@
 
 :root {
   --background: black;
-  --accent: #e7b200;
+  --batman-accent: #e7b200;
+  --joker-accent_1: #0dd859;
+  --joker-accent_2: #470aa7;
 }
 
 * {
@@ -34,10 +36,46 @@ a {
   text-decoration: none;
 }
 
-.batman-wrapper{
-  width: var(--bat-container-width);
+.slider {
+  cursor: ew-resize;
 }
 
-.slider{
-  cursor: ew-resize;
+.swiper-wrapper,
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper .swiper-slide .imgs-wrapper {
+  text-shadow: 0px 0px 10px black;
+}
+.swiper-wrapper .swiper-slide .imgs-wrapper .beyond-suit {
+  width: 76% !important;
+}
+.swiper-wrapper .swiper-slide .imgs-wrapper .laughs {
+  width: 85% !important;
+  left: 150px !important;
+}
+/* Pagination */
+.swiper-pagination .swiper-pagination-bullet {
+  width: 100px;
+  height: 15px;
+  opacity: 1;
+  transform: skewX(-50deg);
+  border-radius: 0px;
+  background-color: var(--batman-accent);
+  transition: height 200ms ease;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  height: 20px;
+}
+
+.img-container {
+  left: var(--x);
+  top: var(--y);
+}
+
+.img-container .character-img{
+  left: var(--x);
+  top: var(--y);
 }
