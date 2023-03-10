@@ -23,6 +23,7 @@
 	--blend-color-5: #1c1cc9;
 	--batman-background-image: url(/assets/images/batman.png);
 	--joker-background-image: url(/assets/images/joker.png);
+	--harley-background-image: url(/assets/images/harley.png)
 }
 
 .activate-glitch .character-name {
@@ -46,11 +47,18 @@
 
 
 /* Glitch styles */
+.harley-img{
+	background: var(--harley-background-image) no-repeat 50% 0%;
+	background-size: 100vh;
+}
 .batman-img{
 	background: var(--batman-background-image) no-repeat 50% 0%;
+	background-size: cover;
+
 }
 .joker-img{
 	background: var(--joker-background-image) no-repeat 50% 0;
+	background-size: cover;
 }
 .glitch {
 	position: absolute;
@@ -68,7 +76,6 @@
 	width: calc(100% + var(--gap-horizontal) * 2);
 	height: calc(100% + var(--gap-vertical) * 2);
 	background-color: var(--blend-color-1);
-	background-size: cover;
 	transform: translate3d(0,0,0);
 	background-blend-mode: var(--blend-mode-1);
 }

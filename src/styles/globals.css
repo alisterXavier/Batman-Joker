@@ -4,7 +4,15 @@
 
 @font-face {
   font-family: "Batman";
-  src: url("/assets/fonts/batmanFont.otf");
+  src: url("/assets/fonts/Batman.otf");
+}
+@font-face {
+  font-family: "Joker";
+  src: url("/assets/fonts/Batman.otf");
+}
+@font-face {
+  font-family: "Harley";
+  src: url("/assets/fonts/Harley.otf");
 }
 
 :root {
@@ -12,6 +20,7 @@
   --batman-accent: #e7b200;
   --joker-accent_1: #0dd859;
   --joker-accent_2: #470aa7;
+  --harley-accent: #781312;
 }
 
 * {
@@ -20,9 +29,18 @@
   margin: 0;
 }
 
+.batman{
+  font-family: "Batman";
+}
+.harley{
+  font-family: "Harley";
+}
+.joker{
+  font-family: "Joker";
+}
+
 html,
 body {
-  font-family: "Batman" !important;
   min-width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -57,13 +75,21 @@ a {
   left: 150px !important;
 }
 /* Pagination */
+.batman .swiper-pagination .swiper-pagination-bullet {
+  background-color: var(--batman-accent);
+}
+.joker .swiper-pagination .swiper-pagination-bullet{
+  background-color: var(--joker-accent_1);
+}
+.harley .swiper-pagination .swiper-pagination-bullet{
+  background-color: var(--harley-accent);
+}
 .swiper-pagination .swiper-pagination-bullet {
   width: 100px;
   height: 15px;
   opacity: 1;
   transform: skewX(-50deg);
   border-radius: 0px;
-  background-color: var(--batman-accent);
   transition: height 200ms ease;
 }
 .swiper-pagination .swiper-pagination-bullet-active {
@@ -75,7 +101,19 @@ a {
   top: var(--y);
 }
 
-.img-container .character-img{
+.img-container .character-img {
   left: var(--x);
   top: var(--y);
+}
+
+.character-list {
+  background-color: rgba(0, 0, 0, 0.432);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 400ms ease;
+}
+.character-selection:hover ~ .character-list,
+.character-list:hover {
+  opacity: 1;
+  visibility: visible;
 }

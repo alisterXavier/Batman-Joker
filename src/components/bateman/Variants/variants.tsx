@@ -42,7 +42,7 @@ const Variants = () => {
                 <div className="absolute left-0 top-0 w-full h-full">
                   <Image
                     alt="bg"
-                    src="/assets/images/suits/original/bg.png"
+                    src="/assets/images/batman_variants/original/bg.png"
                     quality={100}
                     className="absolute"
                     fill
@@ -59,7 +59,7 @@ const Variants = () => {
                 >
                   <Image
                     alt="bg"
-                    src="/assets/images/suits/original/variant.png"
+                    src="/assets/images/batman_variants/original/variant.png"
                     quality={100}
                     className="bat"
                     fill
@@ -80,12 +80,12 @@ const Variants = () => {
                 <div>
                   <Image
                     alt="bg"
-                    src="/assets/images/suits/beyond/bg.png"
+                    src="/assets/images/batman_variants/beyond/bg.png"
                     quality={100}
                     className="absolute "
                     fill
                   />
-                  <h1 className="text-lg lg:text-[100px] text-red-600 absolute top-[5%] left-[5%]">
+                  <h1 className="text-lg lg:text-[60px] text-red-600 absolute top-[5%] left-[5%]">
                     BATMAN
                   </h1>
                 </div>
@@ -97,12 +97,12 @@ const Variants = () => {
                 >
                   <Image
                     alt="bg"
-                    src="/assets/images/suits/beyond/variant.png"
+                    src="/assets/images/batman_variants/beyond/variant.png"
                     quality={100}
                     className="beyond-suit"
                     fill
                   />
-                  <h1 className="text-lg lg:text-[100px] text-red-600 absolute top-[55%] right-[10%]">
+                  <h1 className="text-lg lg:text-[60px] text-red-600 absolute top-[55%] right-[10%]">
                     BEYOND
                   </h1>
                 </div>
@@ -121,7 +121,7 @@ const Variants = () => {
                 <div className="absolute left-0 top-0 w-full h-full">
                   <Image
                     alt="bg"
-                    src="/assets/images/suits/wholaughs/bg.png"
+                    src="/assets/images/batman_variants/wholaughs/bg.png"
                     quality={100}
                     className="absolute"
                     fill
@@ -138,7 +138,7 @@ const Variants = () => {
                 >
                   <Image
                     alt="bg"
-                    src="/assets/images/suits/wholaughs/variant.png"
+                    src="/assets/images/batman_variants/wholaughs/variant.png"
                     quality={100}
                     className="bat"
                     fill

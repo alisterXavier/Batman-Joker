@@ -1,12 +1,12 @@
 import Header from "@/components/joker/Header/Header";
-import Navbar from "@/components/joker/Navbar/jokerNavbar";
+import Variants from "@/components/joker/variants/variants";
 
 const Home = () => {
   return (
-    <>
-      <Navbar />
+    <div className="joker">
       <Header/>
-    </>
+      <Variants />
+    </div>
   );
 };
 

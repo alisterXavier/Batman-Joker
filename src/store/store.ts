@@ -3,12 +3,22 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 export const transitionSlice = createSlice({
   name: "Transition",
   initialState: {
-    transition: false,
+    jokerTransition: false,
+    harleyTransition: false,
+    catTransition: false,
   },
   reducers: {
-    ActivateTransition: (state, action) => {
+    Bat_JokerTransition: (state, action) => {
       const value = action.payload;
-      state.transition = value;
+      state.jokerTransition = value;
+    },
+    HarleyTransition: (state, action) => {
+      const value = action.payload;
+      state.harleyTransition = value;
+    },
+    CatTransition: (state, action) => {
+      const value = action.payload;
+      state.catTransition = value;
     },
   },
 });
@@ -20,4 +30,5 @@ export const store = configureStore({
 });
 
 export default store;
-export const { ActivateTransition } = transitionSlice.actions;
+export const { Bat_JokerTransition, CatTransition, HarleyTransition } =
+  transitionSlice.actions;
