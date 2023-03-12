@@ -12,6 +12,7 @@ const Header = () => {
       className={`hero-section min-w-[100vw] h-[100vh] relative flex items-center justify-center ${
         isTransitionActive && "activate-glitch" 
       }`}
+      data-hero
     >
       <h1 className="character-name text-[#0dd859] left-5 z-[1] text-[50px] lg:text-[100px] font-bold absolute">
         Joker

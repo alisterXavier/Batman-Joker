@@ -56,7 +56,7 @@ const Variants = () => {
                   }}
                 >
                   <Image
-                    alt="bg"
+                    alt="variant"
                     src="/assets/images/harley/updown/variant.png"
                     quality={100}
                     className=""

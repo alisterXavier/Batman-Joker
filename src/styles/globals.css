@@ -14,6 +14,10 @@
   font-family: "Harley";
   src: url("/assets/fonts/Harley.otf");
 }
+@font-face {
+  font-family: "Catwoman";
+  src: url("/assets/fonts/Catwoman.ttf");
+}
 
 :root {
   --background: black;
@@ -21,6 +25,7 @@
   --joker-accent_1: #0dd859;
   --joker-accent_2: #470aa7;
   --harley-accent: #781312;
+  --catwoman-accent: #1e074b;
 }
 
 * {
@@ -28,14 +33,18 @@
   padding: 0;
   margin: 0;
 }
-
 .batman{
   font-family: "Batman";
 }
 .harley{
   font-family: "Harley";
 }
+.catwoman{
+  color: #1e074b;
+  font-family: "Catwoman";
+}
 .joker{
+
   font-family: "Joker";
 }
 
@@ -84,6 +93,9 @@ a {
 .harley .swiper-pagination .swiper-pagination-bullet{
   background-color: var(--harley-accent);
 }
+.catwoman .swiper-pagination .swiper-pagination-bullet{
+  background-color: var(--catwoman-accent);
+}
 .swiper-pagination .swiper-pagination-bullet {
   width: 100px;
   height: 15px;
@@ -116,4 +128,8 @@ a {
 .character-list:hover {
   opacity: 1;
   visibility: visible;
+}
+
+.quote-container{
+  clip: rect(0, auto, auto, 0);
 }

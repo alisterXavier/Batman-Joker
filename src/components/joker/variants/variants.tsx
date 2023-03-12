@@ -97,7 +97,7 @@ const Variants = () => {
                   }}
                 >
                   <Image
-                    alt="bg"
+                    alt="variant"
                     src="/assets/images/joker_variants/heath/variant.png"
                     quality={100}
                     fill
@@ -118,7 +118,7 @@ const Variants = () => {
                 <div className="absolute top-0 w-full h-full">
                   <Image
                     alt="bg"
-                    src="/assets/images/joker_variants/death_of_family/bg1.png"
+                    src="/assets/images/joker_variants/death_of_family/bg.png"
                     quality={100}
                     className="absolute"
                     fill
@@ -135,7 +135,7 @@ const Variants = () => {
                 >
                   <Image
                     alt="variant"
-                    src="/assets/images/joker_variants/death_of_family/variant1.png"
+                    src="/assets/images/joker_variants/death_of_family/variant.png"
                     quality={100}
                     className="bat"
                     fill

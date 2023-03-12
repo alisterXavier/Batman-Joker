@@ -1,5 +1,3 @@
-import Image from "next/image";
-import laugh from "@p/assets/images/laugh.png";
 import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 import {
@@ -8,7 +6,6 @@ import {
   CatTransition,
 } from "@/store/store";
 import { useEffect } from "react";
-import batsymbol from "@p/assets/images/bat-symbol.png";
 
 const Navbar = () => {
   const router = useRouter();
@@ -22,9 +19,16 @@ const Navbar = () => {
 
   const navTransition = (e: React.MouseEvent) => {
     const { id } = e.currentTarget;
-    if (id === "Harley") dispatch(HarleyTransition(true));
-    else if (id === "Catwoman") dispatch(CatTransition(true));
-    else dispatch(Bat_JokerTransition(true));
+    document.querySelector(`[data-hero]`)?.scrollIntoView({
+      behavior: "smooth",
+    });
+    document.querySelector(`[data-${id}]`)?.scrollIntoView({
+      behavior: "smooth",
+    });
+    // if (id === "Harley") dispatch(HarleyTransition(true));
+    // else if (id === "Catwoman") dispatch(CatTransition(true));
+    // else
+    dispatch(Bat_JokerTransition(true));
 
     setTimeout(() => {
       router.push(`/${id}`);
@@ -32,9 +36,10 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if (router.pathname === "/Harley") dispatch(HarleyTransition(false));
-    else if (router.pathname === "/Catwoman") dispatch(CatTransition(false));
-    else dispatch(Bat_JokerTransition(false));
+    // if (router.pathname === "/Harley") dispatch(HarleyTransition(false));
+    // else if (router.pathname === "/Catwoman") dispatch(CatTransition(false));
+    // else
+    dispatch(Bat_JokerTransition(false));
   }, [router]);
 
   return (
@@ -45,7 +50,7 @@ const Navbar = () => {
           : router.pathname === "/Harley"
           ? "text-[#781312] harley text-2xl lg:text-3xl"
           : router.pathname === "/Catwoman"
-          ? "text-gray-600 text-xs lg:text-2xl"
+          ? "text-gray-600 catwoman text-xs lg:text-2xl"
           : "text-[#e7b200] batman text-xs lg:text-2xl"
       }`}
     >
@@ -80,12 +85,14 @@ const Navbar = () => {
         <div className="p-2 lg:p-5">
           <p
             className="character-selection hover:underline cursor-pointer"
-            id="hero"
-            onClick={(e) => handleNavClick(e)}
           >
             Characters
           </p>
-          <div className={`character-list absolute z-[1] w-full flex flex-wrap top-[100%] left-[0%] ${router.pathname === "/Harley" ? "text-md" : "text-sm"}`}>
+          <div
+            className={`character-list absolute z-[1] w-full flex flex-wrap top-[100%] left-[0%] ${
+              router.pathname === "/Harley" ? "text-md" : "text-sm"
+            }`}
+          >
             <p
               className="m-3 hover:underline cursor-pointer"
               onClick={(e) => {

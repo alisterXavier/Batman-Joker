@@ -21,7 +21,7 @@ const Variants = () => {
 
   return (
     <section
-      className="suits-wrapper w-screen h-screen text-[#e7b200] flex items-center justify-center"
+      className="suits-wrapper w-screen h-screen bg-black text-[#e7b200] flex items-center justify-center relative"
       data-variants
     >
       <Swiper
@@ -58,7 +58,7 @@ const Variants = () => {
                   }}
                 >
                   <Image
-                    alt="bg"
+                    alt="variant"
                     src="/assets/images/batman_variants/original/variant.png"
                     quality={100}
                     className="bat"
@@ -69,7 +69,6 @@ const Variants = () => {
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide className="w-full h-full">
           <div className="flex justify-center items-center w-full h-full">
             <div
@@ -82,7 +81,7 @@ const Variants = () => {
                     alt="bg"
                     src="/assets/images/batman_variants/beyond/bg.png"
                     quality={100}
-                    className="absolute "
+                    className="absolute"
                     fill
                   />
                   <h1 className="text-lg lg:text-[60px] text-red-600 absolute top-[5%] left-[5%]">
@@ -96,7 +95,7 @@ const Variants = () => {
                   }}
                 >
                   <Image
-                    alt="bg"
+                    alt="variant"
                     src="/assets/images/batman_variants/beyond/variant.png"
                     quality={100}
                     className="beyond-suit"
@@ -110,7 +109,6 @@ const Variants = () => {
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide className="w-full h-full">
           <div className="flex justify-center items-center w-full h-full">
             <div
@@ -137,7 +135,7 @@ const Variants = () => {
                   }}
                 >
                   <Image
-                    alt="bg"
+                    alt="variant"
                     src="/assets/images/batman_variants/wholaughs/variant.png"
                     quality={100}
                     className="bat"

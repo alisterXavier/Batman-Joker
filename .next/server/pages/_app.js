@@ -80,22 +80,30 @@ const Navbar = ()=>{
     };
     const navTransition = (e)=>{
         const { id  } = e.currentTarget;
-        if (id === "Harley") dispatch(HarleyTransition(true));
-        else if (id === "Catwoman") dispatch(CatTransition(true));
-        else dispatch(Bat_JokerTransition(true));
+        document.querySelector(`[data-hero]`)?.scrollIntoView({
+            behavior: "smooth"
+        });
+        document.querySelector(`[data-${id}]`)?.scrollIntoView({
+            behavior: "smooth"
+        });
+        // if (id === "Harley") dispatch(HarleyTransition(true));
+        // else if (id === "Catwoman") dispatch(CatTransition(true));
+        // else
+        dispatch(Bat_JokerTransition(true));
         setTimeout(()=>{
             router.push(`/${id}`);
         }, 2000);
     };
     (0,external_react_.useEffect)(()=>{
-        if (router.pathname === "/Harley") dispatch(HarleyTransition(false));
-        else if (router.pathname === "/Catwoman") dispatch(CatTransition(false));
-        else dispatch(Bat_JokerTransition(false));
+        // if (router.pathname === "/Harley") dispatch(HarleyTransition(false));
+        // else if (router.pathname === "/Catwoman") dispatch(CatTransition(false));
+        // else
+        dispatch(Bat_JokerTransition(false));
     }, [
         router
     ]);
     return /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-        className: `h-[10vh] z-[2] w-screen fixed top-0 backdrop-blur flex items-center justify-center lg:justify-start ${router.pathname === "/Joker" ? "text-[#0dd859] joker text-xs lg:text-2xl" : router.pathname === "/Harley" ? "text-[#781312] harley text-2xl lg:text-3xl" : router.pathname === "/Catwoman" ? "text-gray-600 text-xs lg:text-2xl" : "text-[#e7b200] batman text-xs lg:text-2xl"}`,
+        className: `h-[10vh] z-[2] w-screen fixed top-0 backdrop-blur flex items-center justify-center lg:justify-start ${router.pathname === "/Joker" ? "text-[#0dd859] joker text-xs lg:text-2xl" : router.pathname === "/Harley" ? "text-[#781312] harley text-2xl lg:text-3xl" : router.pathname === "/Catwoman" ? "text-gray-600 catwoman text-xs lg:text-2xl" : "text-[#e7b200] batman text-xs lg:text-2xl"}`,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "flex",
             children: [
@@ -131,8 +139,6 @@ const Navbar = ()=>{
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: "character-selection hover:underline cursor-pointer",
-                            id: "hero",
-                            onClick: (e)=>handleNavClick(e),
                             children: "Characters"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {

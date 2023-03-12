@@ -3,7 +3,7 @@ import { StoreInterface } from "@/types/types";
 
 const Header = () => {
   const isTransitionActive = useSelector(
-    (state: StoreInterface) => state.transition.harleyTransition
+    (state: StoreInterface) => state.transition.jokerTransition
   );
   return (
     <main
@@ -12,10 +12,13 @@ const Header = () => {
       }`}
       data-hero
     >
-      <h1 className="character-name lg:text-[#781312] text-white left-[10%] z-[1] text-[70px] lg:text-[100px] font-bold absolute">
+      <h1 className="character-name lg:text-[#781312] rotate-[-10deg] text-white left-[10%] z-[1] text-[70px] lg:text-[110px] font-bold absolute">
         Harley
       </h1>
-      <h1 className="character-name text-[#781312] lg:text-white z-[1] translate-y-[60px] lg:translate-y-[80px] left-[40%] lg:left-[20%] text-[70px] lg:text-[100px] font-bold absolute">
+      <h1 
+      className="character-name text-[#781312] rotate-[-10deg] lg:text-white z-[1] top-[20%] lg:top-[50%] left-[40%] lg:left-[20%] 
+      text-[70px] lg:text-[110px] font-bold absolute"
+      >
         Quinn
       </h1>
       <div className={`glitch lg:translate-x-[25%]`}>
