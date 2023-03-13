@@ -5,7 +5,7 @@
   "/Bateman": "pages/Bateman.html",
   "/Catwoman": "pages/Catwoman.html",
   "/Harley": "pages/Harley.html",
-  "/": "pages/index.html",
   "/Joker": "pages/Joker.html",
+  "/": "pages/index.html",
   "/404": "pages/404.html"
 }
