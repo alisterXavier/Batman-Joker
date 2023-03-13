@@ -14,6 +14,7 @@ const Variants = () => {
       item.style.setProperty("--y", `${y}px`);
     });
   };
+
   return (
     <section
       className="variant-wrapper h-[300vh]"

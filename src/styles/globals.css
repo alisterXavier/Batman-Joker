@@ -85,6 +85,9 @@ nav p {
 }
 .img-container{
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-width: 10px;
 }
 .img-container .character-img {
