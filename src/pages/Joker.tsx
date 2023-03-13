@@ -1,5 +1,5 @@
 import Header from "@/components/joker/Header/Header";
-import Variants from "@/components/joker/variants/Variants";
+import Variants from "@/components/joker/Variants/Variants";
 
 const Home = () => {
   return (

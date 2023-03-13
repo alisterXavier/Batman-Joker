@@ -1,8 +1,4 @@
 import React, { useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
 import Image from "next/image";
 
 const Variants = () => {
