@@ -16,34 +16,37 @@ const Variants = () => {
   };
 
   return (
-    <section className="variant-wrapper h-[300vh]" data-variants>
+    <section
+      className="variant-wrapper h-[300vh]"
+      data-variants
+    >
       <div className="main-img-container">
         <div
-          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] flex justify-center border-[10px] border-[#be8198]"
+          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#e7b200]"
           onMouseMove={parallex}
         >
           <div className="imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center">
             <div className="absolute left-0 top-0 w-full h-full">
               <Image
                 alt="bg"
-                src="/assets/images/joker_variants/killing_joker/bg.png"
+                src="/assets/images/batman_variants/original/bg.png"
                 quality={100}
                 className="absolute"
                 fill
               />
-              <h1 className="lg:text-[60px] text-sm text-[#0dd859]  absolute bottom-[10%] z-[2] right-0">
-                THE Joker
+              <h1 className="lg:text-[60px] text-sm text-[#e7b200] rotate-[-54deg] absolute top-[40%]">
+                THE BATMAN
               </h1>
             </div>
             <div
-              className="character-img relative w-[87%] h-[100%] translate-x-[-7%]"
+              className="character-img relative w-[85%] h-[100%] translate-x-[9%]"
               ref={(e: HTMLDivElement) => {
                 sliderList.current[0] = e;
               }}
             >
               <Image
                 alt="variant"
-                src="/assets/images/joker_variants/killing_joker/variant.png"
+                src="/assets/images/batman_variants/original/variant.png"
                 quality={100}
                 className="bat"
                 fill
@@ -54,66 +57,76 @@ const Variants = () => {
       </div>
       <div className="main-img-container">
         <div
-          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] flex justify-center border-[10px] border-[#817091]"
+          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#df0000]"
           onMouseMove={parallex}
         >
-          <div className="imgs-wrapper  relative w-[100%] h-[100%] flex items-center justify-center">
+          <div className="imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center">
             <div>
               <Image
                 alt="bg"
-                src="/assets/images/joker_variants/heath/bg.png"
+                src="/assets/images/batman_variants/beyond/bg.png"
                 quality={100}
                 className="absolute"
                 fill
               />
-              <h1 className="text-lg lg:text-[60px] text-[#470aa7] absolute top-[5%] left-[15%] h-[40px] leading-10">
-                <span>The</span>
-                <span className="block ml-5">Joker</span>
+              <h1 className="text-lg lg:text-[60px] text-red-600 absolute top-[5%] left-[5%]">
+                BATMAN
               </h1>
             </div>
             <div
-              className="character-img relative w-[42%] translate-x-[25px] h-full"
+              className="character-img relative w-[76%] h-full translate-x-[-15%]"
               ref={(e: HTMLDivElement) => {
                 sliderList.current[1] = e;
               }}
             >
               <Image
                 alt="variant"
-                src="/assets/images/joker_variants/heath/variant.png"
+                src="/assets/images/batman_variants/beyond/variant.png"
                 quality={100}
+                className="beyond-suit"
                 fill
               />
+              <h1 className="text-lg lg:text-[60px] text-red-600 absolute top-[55%] right-[10%]">
+                BEYOND
+              </h1>
             </div>
           </div>
         </div>
       </div>
       <div className="main-img-container">
         <div
-          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] flex justify-center border-[10px] border-[#0dd859]"
+          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#23313a]"
           onMouseMove={parallex}
         >
-          <div className="imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center">
-            <div className="absolute left-0 top-0 w-[45%] h-full">
-              <h1 className="text-sm lg:text-[60px] text-[#0dd859] absolute left-[0%] top-[40%] lg:left-[10%]">
-                The
-              </h1>
-              <h1 className="text-sm lg:text-[60px] text-[#470aa7] absolute left-[5%] top-[50%] lg:left-[20%]">
-                Joker
+          <div className="imgs-wrapper relative w-[100%] h-[100%] flex justify-center items-center">
+            <div className="absolute left-0 top-0 w-full h-full">
+              <Image
+                alt="bg"
+                src="/assets/images/batman_variants/wholaughs/bg.png"
+                quality={100}
+                className="absolute"
+                fill
+              />
+              <h1 className="text-sm lg:text-[60px] text-[#506877] absolute top-[5%] left-[10%]">
+                THE BATMAN
               </h1>
             </div>
             <div
-              className="character-img relative w-[45%] ml-auto right-0 h-[100%]"
+              className="character-img relative translate-x-[-10px] w-[75%] h-[100%]"
               ref={(e: HTMLDivElement) => {
                 sliderList.current[2] = e;
               }}
             >
               <Image
                 alt="variant"
-                src="/assets/images/joker_variants/death_of_family/variant.png"
+                src="/assets/images/batman_variants/wholaughs/variant.png"
                 quality={100}
                 className="bat"
                 fill
               />
+              <h1 className="text-sm lg:text-[60px] text-[#630e0f] absolute right-[10%] top-[70%] lg:right-[-100px]">
+                Who Laughs
+              </h1>
             </div>
           </div>
         </div>
