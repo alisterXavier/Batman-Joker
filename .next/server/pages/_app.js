@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 3600:
+/***/ 600:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21,11 +21,11 @@ var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: ./src/styles/globals.css
 var globals = __webpack_require__(108);
 // EXTERNAL MODULE: ./src/styles/styles.sass
-var styles = __webpack_require__(5267);
+var styles = __webpack_require__(267);
 // EXTERNAL MODULE: ./src/styles/glitch.css
-var glitch = __webpack_require__(8197);
+var glitch = __webpack_require__(197);
 // EXTERNAL MODULE: external "react-redux"
-var external_react_redux_ = __webpack_require__(6022);
+var external_react_redux_ = __webpack_require__(22);
 ;// CONCATENATED MODULE: external "@reduxjs/toolkit"
 const toolkit_namespaceObject = require("@reduxjs/toolkit");
 ;// CONCATENATED MODULE: ./src/store/store.ts
@@ -61,9 +61,9 @@ const store = (0,toolkit_namespaceObject.configureStore)({
 const { Bat_JokerTransition , CatTransition , HarleyTransition  } = transitionSlice.actions;
 
 // EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(1853);
+var router_ = __webpack_require__(853);
 // EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
+var external_react_ = __webpack_require__(689);
 ;// CONCATENATED MODULE: ./src/components/Navbar.tsx
 
 
@@ -103,7 +103,7 @@ const Navbar = ()=>{
         router
     ]);
     return /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-        className: `h-[10vh] z-[2] w-screen fixed top-0 backdrop-blur flex items-center justify-center lg:justify-start ${router.pathname === "/Joker" ? "text-[#0dd859] joker text-xs lg:text-2xl" : router.pathname === "/Harley" ? "text-[#781312] harley text-2xl lg:text-3xl" : router.pathname === "/Catwoman" ? "text-gray-600 catwoman text-xs lg:text-2xl" : "text-[#e7b200] batman text-xs lg:text-2xl"}`,
+        className: `h-[10vh] z-10 w-screen fixed top-0 backdrop-blur flex items-center justify-center lg:justify-start ${router.pathname === "/Joker" ? "text-[#0dd859] joker text-xs lg:text-2xl" : router.pathname === "/Harley" ? "text-[#781312] harley text-2xl lg:text-3xl" : router.pathname === "/Catwoman" ? "text-gray-600 catwoman text-xs lg:text-2xl" : "text-[#e7b200] batman text-xs lg:text-2xl"}`,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "flex",
             children: [
@@ -212,7 +212,7 @@ function App({ Component , pageProps  }) {
 
 /***/ }),
 
-/***/ 8197:
+/***/ 197:
 /***/ (() => {
 
 
@@ -226,14 +226,14 @@ function App({ Component , pageProps  }) {
 
 /***/ }),
 
-/***/ 5267:
+/***/ 267:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 1853:
+/***/ 853:
 /***/ ((module) => {
 
 "use strict";
@@ -241,7 +241,7 @@ module.exports = require("next/router");
 
 /***/ }),
 
-/***/ 6689:
+/***/ 689:
 /***/ ((module) => {
 
 "use strict";
@@ -249,7 +249,7 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 6022:
+/***/ 22:
 /***/ ((module) => {
 
 "use strict";
@@ -272,7 +272,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(3600));
+var __webpack_exports__ = (__webpack_exec__(600));
 module.exports = __webpack_exports__;
 
 })();

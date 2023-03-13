@@ -33,18 +33,17 @@
   padding: 0;
   margin: 0;
 }
-.batman{
+.batman {
   font-family: "Batman";
 }
-.harley{
+.harley {
   font-family: "Harley";
 }
-.catwoman{
+.catwoman {
   color: #1e074b;
   font-family: "Catwoman";
 }
-.joker{
-
+.joker {
   font-family: "Joker";
 }
 
@@ -63,61 +62,35 @@ a {
   text-decoration: none;
 }
 
-.slider {
-  cursor: ew-resize;
+nav p {
+  text-shadow: 0px 0px 5px black;
 }
 
-.swiper-wrapper,
-.swiper-slide {
-  width: 100%;
-  height: 100%;
+.variant-wrapper {
+  width: 100vw;
+  background: black;
+  position: relative;
 }
-
-.swiper-wrapper .swiper-slide .imgs-wrapper {
-  text-shadow: 0px 0px 10px black;
+.main-img-container {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
-.swiper-wrapper .swiper-slide .imgs-wrapper .beyond-suit {
-  width: 76% !important;
+.img-container{
+  position: fixed;
+  border-width: 10px;
 }
-.swiper-wrapper .swiper-slide .imgs-wrapper .laughs {
-  width: 85% !important;
-  left: 150px !important;
-}
-/* Pagination */
-.batman .swiper-pagination .swiper-pagination-bullet {
-  background-color: var(--batman-accent);
-}
-.joker .swiper-pagination .swiper-pagination-bullet{
-  background-color: var(--joker-accent_1);
-}
-.harley .swiper-pagination .swiper-pagination-bullet{
-  background-color: var(--harley-accent);
-}
-.catwoman .swiper-pagination .swiper-pagination-bullet{
-  background-color: var(--catwoman-accent);
-}
-.swiper-pagination .swiper-pagination-bullet {
-  width: 100px;
-  height: 15px;
-  opacity: 1;
-  transform: skewX(-50deg);
-  border-radius: 0px;
-  transition: height 200ms ease;
-}
-.swiper-pagination .swiper-pagination-bullet-active {
-  height: 20px;
-}
-
-.img-container {
-  left: var(--x);
-  top: var(--y);
-}
-
 .img-container .character-img {
   left: var(--x);
   top: var(--y);
 }
-
 .character-list {
   background-color: rgba(0, 0, 0, 0.432);
   opacity: 0;
@@ -129,7 +102,6 @@ a {
   opacity: 1;
   visibility: visible;
 }
-
-.quote-container{
+.quote-container {
   clip: rect(0, auto, auto, 0);
 }

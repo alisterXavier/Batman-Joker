@@ -5,7 +5,7 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 9185:
+/***/ 185:
 /***/ ((module, exports, __webpack_require__) => {
 
 
@@ -13,9 +13,9 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports["default"] = void 0;
-var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
-var _react = _interop_require_default(__webpack_require__(6689));
-var _head = _interop_require_default(__webpack_require__(5443));
+var _interop_require_default = (__webpack_require__(648)/* ["default"] */ .Z);
+var _react = _interop_require_default(__webpack_require__(689));
+var _head = _interop_require_default(__webpack_require__(443));
 const statusCodes = {
     400: "Bad Request",
     404: "This page could not be found",
@@ -111,28 +111,28 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 3918:
+/***/ 918:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/amp-context.js");
 
 /***/ }),
 
-/***/ 5732:
+/***/ 732:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
-/***/ 2796:
+/***/ 796:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 2470:
+/***/ 470:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/side-effect.js");
@@ -146,7 +146,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 6689:
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
@@ -160,7 +160,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [443], () => (__webpack_exec__(9185)));
+var __webpack_exports__ = __webpack_require__.X(0, [443], () => (__webpack_exec__(185)));
 module.exports = __webpack_exports__;
 
 })();

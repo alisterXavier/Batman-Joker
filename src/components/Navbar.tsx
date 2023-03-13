@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`h-[10vh] z-[2] w-screen fixed top-0 backdrop-blur flex items-center justify-center lg:justify-start ${
+      className={`h-[10vh] z-10 w-screen fixed top-0 backdrop-blur flex items-center justify-center lg:justify-start ${
         router.pathname === "/Joker"
           ? "text-[#0dd859] joker text-xs lg:text-2xl"
           : router.pathname === "/Harley"

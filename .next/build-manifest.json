@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/XMpDQKocCLPhfAJMgg22n/_buildManifest.js",
-    "static/XMpDQKocCLPhfAJMgg22n/_ssgManifest.js"
+    "static/azFQRY7Yd6Jhos_QBLpOJ/_buildManifest.js",
+    "static/azFQRY7Yd6Jhos_QBLpOJ/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,50 +14,50 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/chunks/883-cdc14b9e09bc2a10.js",
+      "static/chunks/656-3702c89443cf8a21.js",
       "static/chunks/793-a5d376fb3781c391.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/index-fde5ee6e688b14d7.js"
+      "static/chunks/pages/index-2e3988e51d14d0bc.js"
     ],
     "/Bateman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/chunks/883-cdc14b9e09bc2a10.js",
+      "static/chunks/656-3702c89443cf8a21.js",
       "static/chunks/793-a5d376fb3781c391.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/Bateman-508eca9e3555dee7.js"
+      "static/chunks/pages/Bateman-e3e34f8ed3eb2428.js"
     ],
     "/Catwoman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/chunks/883-cdc14b9e09bc2a10.js",
+      "static/chunks/656-3702c89443cf8a21.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/Catwoman-b6fc2d1250f667c9.js"
+      "static/chunks/pages/Catwoman-b2c53a0fea2ba902.js"
     ],
     "/Harley": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/chunks/883-cdc14b9e09bc2a10.js",
+      "static/chunks/656-3702c89443cf8a21.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/Harley-90d3fd1c1ada4e7b.js"
+      "static/chunks/pages/Harley-dfaeab59a1853e49.js"
     ],
     "/Joker": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/chunks/883-cdc14b9e09bc2a10.js",
+      "static/chunks/656-3702c89443cf8a21.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/Joker-e835a7044446ce07.js"
+      "static/chunks/pages/Joker-a7f9325deba5a1f6.js"
     ],
     "/_app": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/css/037d642a1cc81153.css",
-      "static/chunks/pages/_app-326ad10f47b5c5a0.js"
+      "static/css/1d9a0c31c3fbb46f.css",
+      "static/chunks/pages/_app-f8681ae9f7eae01a.js"
     ],
     "/_error": [
       "static/chunks/webpack-ee7e63bc15b31913.js",

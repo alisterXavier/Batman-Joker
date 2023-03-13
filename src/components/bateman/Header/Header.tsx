@@ -12,19 +12,15 @@ const Header = () => {
   const { scrollY } = useScroll();
   const initial = elementTop - clientHeight;
 
-  const yRange = mobileSize && mobileSize <= 1024 ? [-200, 0] : [0, 0];
   const xRange = mobileSize && mobileSize <= 1024 ? [0, 0] : [300, 0];
   const opacityRange = [0, 1];
 
-  const finalY = elementTop + yRange[0];
   const finalX = elementTop + xRange[0];
   const finalOpacity = elementTop + opacityRange[0];
 
-  const yTransform = useTransform(scrollY, [initial, finalY], yRange);
   const xTransform = useTransform(scrollY, [initial, finalX], xRange);
   const opacity = useTransform(scrollY, [initial, finalOpacity], opacityRange);
 
-  const y = useSpring(yTransform, { stiffness: 200, damping: 90 });
   const x = useSpring(xTransform, { stiffness: 200, damping: 90 });
 
   const isTransitionActive = useSelector(
@@ -57,7 +53,7 @@ const Header = () => {
       <motion.h1
         className="character-name text-[#e7b200] left-5 z-[1] text-[50px] lg:text-[100px] font-bold absolute"
         ref={batmanTitleRef}
-        style={{ y, x }}
+        style={{ x }}
       >
         Batman
       </motion.h1>

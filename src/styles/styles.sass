@@ -1,0 +1,10 @@
+$variant:0
+$variant-pos: 0vh
+
+@for $var from 1 through 4
+    .main-img-container:nth-child(#{$var})
+        z-index: $variant
+        top: $variant-pos
+    $variant: $variant + 1
+    $variant-pos: $variant-pos + 100vh 
+     
