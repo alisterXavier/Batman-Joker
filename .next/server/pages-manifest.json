@@ -1,8 +1,8 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/Bateman": "pages/Bateman.html",
+  "/_error": "pages/_error.js",
   "/Catwoman": "pages/Catwoman.html",
   "/Harley": "pages/Harley.html",
   "/Joker": "pages/Joker.html",
