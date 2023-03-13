@@ -1,9 +1,9 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/Catwoman": "pages/Catwoman.html",
   "/Bateman": "pages/Bateman.html",
+  "/Catwoman": "pages/Catwoman.html",
+  "/_error": "pages/_error.js",
   "/Harley": "pages/Harley.html",
   "/Joker": "pages/Joker.html",
   "/": "pages/index.html",

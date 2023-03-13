@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ukGugkHGAvP8VWKo_9Fv-/_buildManifest.js",
-    "static/ukGugkHGAvP8VWKo_9Fv-/_ssgManifest.js"
+    "static/XMpDQKocCLPhfAJMgg22n/_buildManifest.js",
+    "static/XMpDQKocCLPhfAJMgg22n/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -17,7 +17,7 @@
       "static/chunks/883-cdc14b9e09bc2a10.js",
       "static/chunks/793-a5d376fb3781c391.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/index-510ca2177faddffe.js"
+      "static/chunks/pages/index-fde5ee6e688b14d7.js"
     ],
     "/Bateman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -26,7 +26,7 @@
       "static/chunks/883-cdc14b9e09bc2a10.js",
       "static/chunks/793-a5d376fb3781c391.js",
       "static/css/ae24ab0f05f4a91c.css",
-      "static/chunks/pages/Bateman-67174e15d0146bd5.js"
+      "static/chunks/pages/Bateman-508eca9e3555dee7.js"
     ],
     "/Catwoman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -56,7 +56,7 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/css/9c1d9be02e9d74cf.css",
+      "static/css/037d642a1cc81153.css",
       "static/chunks/pages/_app-326ad10f47b5c5a0.js"
     ],
     "/_error": [

@@ -357,19 +357,19 @@ const Catch = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "quote-container w-screen h-screen bg-black flex items-center justify-center absolute top-0 z-[1] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[1] overflow-hidden",
+                    className: "fixed z-[1] overflow-hidden w-[65%]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        className: "text-[#e7b200] w-[800px]",
+                        className: "text-[#e7b200]",
                         children: "I am vengeance."
                     })
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "quote-container w-screen h-screen bg-black flex items-center justify-center absolute top-[100vh] z-[2] overflow-hidden",
+                className: "quote-container w-screen h-screen bg-[#e7b200] flex items-center justify-center absolute top-[100vh] z-[2] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[2] top-[50%] overflow-hidden translate-y-[-49%]",
+                    className: "fixed z-[2] top-[50%] overflow-hidden translate-y-[-49%] w-[65%]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        className: "text-[#e7b200] w-[800px]",
+                        className: "text-black",
                         children: "I am the night."
                     })
                 })
@@ -377,9 +377,9 @@ const Catch = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "quote-container w-screen h-screen bg-black flex items-center justify-center absolute top-[200vh] z-[3] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[3] top-[50%] overflow-hidden translate-y-[-49%]",
+                    className: "fixed z-[3] top-[50%] overflow-hidden translate-y-[-49%] text-center w-[800px]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        className: "text-[#e7b200] w-[800px]",
+                        className: "text-[#e7b200]",
                         children: "I am"
                     })
                 })
