@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/8Lt0Vbzv1PPC5W-R-EtmY/_buildManifest.js",
-    "static/8Lt0Vbzv1PPC5W-R-EtmY/_ssgManifest.js"
+    "static/oWTZ98qgWqLUmUFF9IaeU/_buildManifest.js",
+    "static/oWTZ98qgWqLUmUFF9IaeU/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -16,7 +16,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/675-ca33a57d0d06f583.js",
       "static/chunks/793-a5d376fb3781c391.js",
-      "static/chunks/pages/index-1a404d4089435211.js"
+      "static/chunks/pages/index-ebf0c5c87bd5dcc1.js"
     ],
     "/Bateman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -24,34 +24,34 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/675-ca33a57d0d06f583.js",
       "static/chunks/793-a5d376fb3781c391.js",
-      "static/chunks/pages/Bateman-6336f2856c5a11fc.js"
+      "static/chunks/pages/Bateman-1ee12cb29c6ce90c.js"
     ],
     "/Catwoman": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/675-ca33a57d0d06f583.js",
-      "static/chunks/pages/Catwoman-554379efc5ff3aa0.js"
+      "static/chunks/pages/Catwoman-76599b8abbe308ea.js"
     ],
     "/Harley": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/675-ca33a57d0d06f583.js",
-      "static/chunks/pages/Harley-2f64f4dae7cf3895.js"
+      "static/chunks/pages/Harley-51e98740b7bd185f.js"
     ],
     "/Joker": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/675-ca33a57d0d06f583.js",
-      "static/chunks/pages/Joker-93f2b7fde4c25925.js"
+      "static/chunks/pages/Joker-a8feda8daa8faf2c.js"
     ],
     "/_app": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
-      "static/css/bfc2a221ecf38d13.css",
+      "static/css/d7808dc3e892449c.css",
       "static/chunks/pages/_app-f8681ae9f7eae01a.js"
     ],
     "/_error": [

@@ -16,13 +16,10 @@ const Variants = () => {
   };
 
   return (
-    <section
-      className="variant-wrapper h-[300vh]"
-      data-variants
-    >
+    <section className="variant-wrapper h-[300vh]" data-variants>
       <div className="main-img-container">
         <div
-          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#e7b200]"
+          className="img-container top-[40%] w-[95%] h-[30%] lg:top-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#e7b200]"
           onMouseMove={parallex}
         >
           <div className="imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center">
@@ -57,7 +54,7 @@ const Variants = () => {
       </div>
       <div className="main-img-container">
         <div
-          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#df0000]"
+          className="img-container top-[40%] w-[95%] h-[30%] lg:top-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#df0000]"
           onMouseMove={parallex}
         >
           <div className="imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center">
@@ -95,7 +92,7 @@ const Variants = () => {
       </div>
       <div className="main-img-container">
         <div
-          className="img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#23313a]"
+          className="img-container top-[40%] w-[95%] h-[30%] lg:top-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#23313a]"
           onMouseMove={parallex}
         >
           <div className="imgs-wrapper relative w-[100%] h-[100%] flex justify-center items-center">

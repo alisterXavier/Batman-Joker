@@ -20,7 +20,7 @@ const Variants = () => {
 
       <div className="main-img-container">
         <div
-          className="img-container top-[10%] w-[70%] h-[55%] lg:w-[35%] lg:h-[80%] border-[10px] border-[white]"
+          className="img-container top-[25%] lg:top-[10%] w-[70%] h-[55%] lg:w-[35%] lg:h-[80%] border-[10px] border-[white]"
           onMouseMove={parallex}
         >
           <div className="imgs-wrapper w-[100%] h-[100%] flex items-center justify-center">
@@ -53,7 +53,7 @@ const Variants = () => {
 
       <div className="main-img-container">
         <div
-          className="img-container top-[15%] w-[85%] h-[30%] lg:w-[60%] lg:h-[70%] flex justify-center border-[10px] border-[red]"
+          className="img-container top-[40%] lg:top-[15%] w-[95%] h-[40%] lg:w-[60%] lg:h-[70%] flex justify-center border-[10px] border-[red]"
           onMouseMove={parallex}
         >
           <div className="imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center">

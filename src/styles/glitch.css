@@ -63,7 +63,7 @@
 }
 .catwoman-img{
 	background: var(--catwoman-background-image) no-repeat 50% 0;
-	background-size: cover;
+	background-size: contain;
 }
 .glitch {
 	position: absolute;

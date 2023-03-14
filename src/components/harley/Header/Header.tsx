@@ -16,7 +16,7 @@ const Header = () => {
         Harley
       </h1>
       <h1 
-      className="character-name text-[#781312] rotate-[-10deg] lg:text-white z-[1] top-[20%] lg:top-[50%] left-[40%] lg:left-[20%] 
+      className="character-name text-[#781312] rotate-[-10deg] lg:text-white z-[1] top-[50%] left-[40%] lg:left-[20%] 
       text-[70px] lg:text-[110px] font-bold absolute"
       >
         Quinn

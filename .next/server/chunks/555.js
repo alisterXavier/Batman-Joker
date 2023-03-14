@@ -151,7 +151,7 @@ const Variants = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "main-img-container",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#e7b200]",
+                    className: "img-container top-[40%] w-[95%] h-[30%] lg:top-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#e7b200]",
                     onMouseMove: parallex,
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: "imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center",
@@ -192,7 +192,7 @@ const Variants = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "main-img-container",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#df0000]",
+                    className: "img-container top-[40%] w-[95%] h-[30%] lg:top-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#df0000]",
                     onMouseMove: parallex,
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: "imgs-wrapper relative w-[100%] h-[100%] flex items-center justify-center",
@@ -238,7 +238,7 @@ const Variants = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "main-img-container",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "img-container top-[20%] w-[80%] h-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#23313a]",
+                    className: "img-container top-[40%] w-[95%] h-[30%] lg:top-[20%] lg:w-[70%] lg:h-[70%] border-[10px] border-[#23313a]",
                     onMouseMove: parallex,
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: "imgs-wrapper relative w-[100%] h-[100%] flex justify-center items-center",
@@ -306,7 +306,7 @@ const Catch = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "quote-container w-screen h-screen bg-[#e7b200] flex items-center justify-center absolute top-0 z-[1] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[1] top-[50%] overflow-hidden w-[70%]",
+                    className: "fixed z-[1] top-[50%] overflow-hidden w-[75%]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                         className: "text-black",
                         children: "I am vengeance."
@@ -316,7 +316,7 @@ const Catch = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "quote-container w-screen h-screen bg-black flex items-center justify-center absolute top-[100vh] z-[2] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[2] top-[50%] overflow-hidden w-[70%]",
+                    className: "fixed z-[2] top-[50%] overflow-hidden w-[75%]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                         className: "text-[#e7b200]",
                         children: "I am the night."
@@ -326,7 +326,7 @@ const Catch = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "quote-container w-screen h-screen bg-[#e7b200] flex items-center justify-center absolute top-[200vh] z-[3] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[3] top-[50%] overflow-hidden text-center w-[70%]",
+                    className: "fixed z-[3] top-[50%] overflow-hidden text-center w-[75%]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                         className: "text-black",
                         children: "I am"
@@ -336,9 +336,9 @@ const Catch = ()=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "quote-container w-screen h-screen bg-black flex items-center justify-center absolute top-[300vh] z-[3] overflow-hidden",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "fixed z-[3] top-[50%] overflow-hidden text-center w-[70%]",
+                    className: "fixed z-[3] top-[50%] overflow-hidden text-center w-[75%]",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        className: "text-[#e7b200]",
+                        className: "text-[#e7b200] text-[50px]",
                         children: "BATMAN"
                     })
                 })
