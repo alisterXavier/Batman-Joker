@@ -1,10 +1,10 @@
-import Header from "@/components/harley/Header/Header";
+import Header from "@/components/Header";
 import Variants from "@/components/harley/Variants/Variants";
 
 const Harley = () => {
   return (
     <div className="harley">
-      <Header />
+      <Header characterName="harley" secondName="Quinn"/>
       <Variants />
     </div>
   );

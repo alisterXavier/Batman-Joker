@@ -1,11 +1,12 @@
-import Header from "@/components/bateman/Header/Header";
+
+import Header from "@/components/Header";
 import Variants from "@/components/bateman/Variants/Variants";
 import Catch from "@/components/bateman/catchphrase/Catch";
 
 const Home = () => {
   return (
     <div className="batman">
-      <Header />
+      <Header characterName="batman"/>
       <Variants />
       <Catch />
     </div>

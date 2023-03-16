@@ -1,10 +1,11 @@
-import Header from "@/components/catwoman/Header/Header";
+
+import Header from "@/components/Header";
 import Variants from "@/components/catwoman/Variants/Variants";
 
 const Catwoman = () => {
   return (
     <div className="catwoman">
-      <Header />
+      <Header characterName="catwoman"/>      
       <Variants />
     </div>
   );

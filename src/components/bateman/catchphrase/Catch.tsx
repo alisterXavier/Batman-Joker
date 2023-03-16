@@ -23,7 +23,7 @@ const Catch = () => {
 
       <div className="quote-container w-screen h-screen bg-black flex items-center justify-center absolute top-[300vh] z-[3] overflow-hidden">
         <div className="fixed z-[3] top-[50%] overflow-hidden text-center w-[75%]">
-          <h1 className="text-[#e7b200] text-[50px]">BATMAN</h1>
+          <h1 className="text-[#e7b200] text-[50px] lg:text-[100px]">BATMAN</h1>
         </div>
       </div>
     </div>

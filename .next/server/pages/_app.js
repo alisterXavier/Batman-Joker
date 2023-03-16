@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 600:
+/***/ 373:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -60,8 +60,8 @@ const store = (0,toolkit_namespaceObject.configureStore)({
 /* harmony default export */ const store_store = (store);
 const { Bat_JokerTransition , CatTransition , HarleyTransition  } = transitionSlice.actions;
 
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(853);
+;// CONCATENATED MODULE: external "next/router"
+const router_namespaceObject = require("next/router");
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(689);
 ;// CONCATENATED MODULE: ./src/components/Navbar.tsx
@@ -71,7 +71,7 @@ var external_react_ = __webpack_require__(689);
 
 
 const Navbar = ()=>{
-    const router = (0,router_.useRouter)();
+    const router = (0,router_namespaceObject.useRouter)();
     const dispatch = (0,external_react_redux_.useDispatch)();
     const handleNavClick = (e)=>{
         document.querySelector(`[data-${e.currentTarget.id}]`)?.scrollIntoView({
@@ -233,14 +233,6 @@ function App({ Component , pageProps  }) {
 
 /***/ }),
 
-/***/ 853:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/router");
-
-/***/ }),
-
 /***/ 689:
 /***/ ((module) => {
 
@@ -272,7 +264,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(600));
+var __webpack_exports__ = (__webpack_exec__(373));
 module.exports = __webpack_exports__;
 
 })();
