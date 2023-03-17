@@ -1,8 +1,7 @@
-import { useSelector } from "react-redux";
-import { StoreInterface } from "@/types/types";
-import { useEffect, useRef, useState, useLayoutEffect } from "react";
+import { useEffect, useRef, useState, useLayoutEffect, useContext } from "react";
 import { useTransform, useScroll, useSpring, motion } from "framer-motion";
 import useWidth from "@/hooks/widthHook";
+import { Transition } from "@/pages/_app";
 
 const Header = ({
   characterName,
@@ -18,7 +17,7 @@ const Header = ({
   const { scrollY } = useScroll();
   const initial = elementTop - clientHeight;
 
-  const xRange = mobileSize && mobileSize <= 1024 ? [0, 0] : [300, 0];
+  const xRange = mobileSize && mobileSize <= 1024 ? [100, 0] : [300, 0];
   const opacityRange = [0, 1];
 
   const finalX = elementTop + xRange[0];
@@ -29,9 +28,8 @@ const Header = ({
 
   const x = useSpring(xTransform, { stiffness: 200, damping: 90 });
 
-  const isTransitionActive = useSelector(
-    (state: StoreInterface) => state.transition.jokerTransition
-  );
+  const { activateTransition,  } = useContext(Transition);
+
   useLayoutEffect(() => {
     const element = TitleRef.current;
     const onResize = () => {
@@ -52,12 +50,12 @@ const Header = ({
   return (
     <main
       className={`hero-section min-w-[100vw] h-[100vh] bg-black relative flex items-center justify-center ${
-        isTransitionActive && "activate-glitch"
+        activateTransition && "activate-glitch"
       } `}
       data-hero
     >
       <motion.h1
-        className={`${
+        className={`character-name ${
           characterName === "harley"
             ? " lg:text-[#781312] text-white left-[10%] text-[70px] lg:text-[110px] capitalize"
             : "left-5 text-[50px] lg:text-[100px]"

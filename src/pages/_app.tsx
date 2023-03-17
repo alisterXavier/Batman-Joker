@@ -2,17 +2,27 @@ import "@/styles/globals.css";
 import "@/styles/styles.sass";
 import "@/styles/glitch.css";
 import type { AppProps } from "next/app";
-import { Provider } from "react-redux";
-import store from "@/store/store";
 import Navbar from "@/components/Navbar";
+import { createContext, useState } from "react";
+
+interface transitionAct {
+  activateTransition: boolean;
+  setActivateTransition: (
+    value: boolean | ((preVar: boolean) => boolean)
+  ) => void;
+}
+
+export const Transition = createContext({} as transitionAct);
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [activateTransition, setActivateTransition] = useState<boolean>(false);
+
   return (
-    <Provider store={store}>
+    <Transition.Provider value={{ activateTransition, setActivateTransition }}>
       <div className="main-wrapper relative z-1 w-screen min-h-screen overflow-hidden">
         <Navbar />
         <Component {...pageProps} />
       </div>
-    </Provider>
+    </Transition.Provider>
   );
 }

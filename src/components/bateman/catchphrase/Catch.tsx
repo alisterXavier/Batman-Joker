@@ -1,5 +1,3 @@
-import { useEffect, useRef } from "react";
-
 const Catch = () => {
   return (
     <div className="quote relative z-[1] h-[400vh] text-2xl lg:text-7xl">

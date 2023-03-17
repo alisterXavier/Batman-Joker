@@ -42,7 +42,7 @@
 }
 .catwoman {
   color: var(--catwoman-accent);
-  font-family: "Catwoman" !important;
+  font-family: "Catwoman";
 }
 .joker {
   color: var(--joker-accent_1);

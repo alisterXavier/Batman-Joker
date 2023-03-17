@@ -1,16 +1,10 @@
+import { Transition } from "@/pages/_app";
 import { useRouter } from "next/router";
-import { useDispatch } from "react-redux";
-import {
-  Bat_JokerTransition,
-  HarleyTransition,
-  CatTransition,
-} from "@/store/store";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 
 const Navbar = () => {
   const router = useRouter();
-  const dispatch = useDispatch();
-
+  const { activateTransition, setActivateTransition } = useContext(Transition);
   const handleNavClick = (e: React.MouseEvent) => {
     document.querySelector(`[data-${e.currentTarget.id}]`)?.scrollIntoView({
       behavior: "smooth",
@@ -28,7 +22,7 @@ const Navbar = () => {
     // if (id === "Harley") dispatch(HarleyTransition(true));
     // else if (id === "Catwoman") dispatch(CatTransition(true));
     // else
-    dispatch(Bat_JokerTransition(true));
+    setActivateTransition(true)
 
     setTimeout(() => {
       router.push(`/${id}`);
@@ -39,7 +33,7 @@ const Navbar = () => {
     // if (router.pathname === "/Harley") dispatch(HarleyTransition(false));
     // else if (router.pathname === "/Catwoman") dispatch(CatTransition(false));
     // else
-    dispatch(Bat_JokerTransition(false));
+    setActivateTransition(false)
   }, [router]);
 
   return (
@@ -83,9 +77,7 @@ const Navbar = () => {
           </p>
         </div>
         <div className="p-2 lg:p-5">
-          <p
-            className="character-selection hover:underline cursor-pointer"
-          >
+          <p className="character-selection hover:underline cursor-pointer">
             Characters
           </p>
           <div
