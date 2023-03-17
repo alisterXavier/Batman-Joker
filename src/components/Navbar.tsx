@@ -82,7 +82,7 @@ const Navbar = () => {
           </p>
           <div
             className={`character-list absolute z-[1] w-full flex flex-wrap top-[100%] left-[0%] ${
-              router.pathname === "/Harley" ? "text-md" : "text-sm"
+              ["/Harley", "/Catwoman"].includes(router.pathname)  ? "text-md" : "text-sm"
             }`}
           >
             <p

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useLayoutEffect, useContext } from "react";
+import { useRef, useState, useLayoutEffect, useContext } from "react";
 import { useTransform, useScroll, useSpring, motion } from "framer-motion";
 import useWidth from "@/hooks/widthHook";
 import { Transition } from "@/pages/_app";
@@ -46,7 +46,6 @@ const Header = ({
     return () => window.removeEventListener("resize", onResize);
   }, [TitleRef]);
 
-  useEffect(() => {}, []);
   return (
     <main
       className={`hero-section min-w-[100vw] h-[100vh] bg-black relative flex items-center justify-center ${
