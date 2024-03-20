@@ -1,11 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/Bateman": "pages/Bateman.html",
   "/_error": "pages/_error.js",
-  "/Harley": "pages/Harley.html",
-  "/Catwoman": "pages/Catwoman.html",
-  "/Joker": "pages/Joker.html",
-  "/": "pages/index.html",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js",
+  "/Harley": "pages/Harley.js",
+  "/Joker": "pages/Joker.js"
 }

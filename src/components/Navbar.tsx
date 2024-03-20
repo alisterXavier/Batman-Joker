@@ -77,11 +77,11 @@ const Navbar = () => {
           </p>
         </div>
         <div className="p-2 lg:p-5">
-          <p className="character-selection hover:underline cursor-pointer">
+          <p className="character-selection relative hover:underline cursor-pointer">
             Characters
           </p>
           <div
-            className={`character-list absolute z-[1] w-full flex flex-wrap top-[100%] left-[0%] ${
+            className={`character-list absolute z-[1] w-fit flex flex-wrap top-[100%] ${
               ["/Harley", "/Catwoman"].includes(router.pathname)  ? "text-md" : "text-sm"
             }`}
           >
